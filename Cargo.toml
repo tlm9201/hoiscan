@@ -1,0 +1,11 @@
+[package]
+name = "hoiscan"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.23", features = ["derive"] }
+steamworks = "0.11.0"
+prettytable-rs = "^0.10"
+hoicolor = "0.1.0"
+unicode-width = "=0.1.12" # temp fix for bad table formatting w/ colors
